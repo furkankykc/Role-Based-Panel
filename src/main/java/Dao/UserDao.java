@@ -6,20 +6,19 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import javax.sql.DataSource;
+import Entity.User;
 
-import Entity.Permission;
-
-public class PermissionDao {
+public class UserDao {
 	private DataSource dataSource;
-	Permission permission = null;
-	ArrayList<Permission> permissions= null;
+	User user = null;
+	ArrayList<User> userList= null;
 
 	public void setDataSource(DataSource dataSource) {
 	
 		this.dataSource = dataSource;
 	}
 	public void delete(int id) {
-		String sql  = "DELETE FROM permission WHERE id=?";
+		String sql  = "DELETE FROM user WHERE id=?";
 		Connection conn = null;
 		try{
 			conn = dataSource.getConnection();
@@ -38,12 +37,11 @@ public class PermissionDao {
 					e.printStackTrace();
 				}
 	}
+	
+	public boolean insert(User user){
 
-
-	public boolean insert(Permission permission){
-
-		String sql = "INSERT INTO permission " +
-				"(name) VALUES (?)";
+		String sql = "INSERT INTO user " +
+				"(name,username,password,isAdmin) VALUES (?, ?, ?, ?)";
 		Connection conn = null;
 		
 
@@ -51,7 +49,10 @@ public class PermissionDao {
 			conn = dataSource.getConnection();
 			PreparedStatement ps = conn.prepareStatement(sql);
 
-			ps.setString(1, permission.getName());
+			ps.setString(1, user.getName());
+			ps.setString(2, user.getUsername());
+			ps.setString(3, user.getPassword());
+			ps.setInt(4, user.getType());
 			ps.executeUpdate();
 			ps.close();
 
@@ -67,16 +68,20 @@ public class PermissionDao {
 		}
 		return true;
 	}
-	public void update(Permission permission){
-		String sql = "UPDATE permission SET  name = ? where id = ?  ";
-		//System.out.println("updating : "+permission);
+	public void update(User user){
+		String sql = "UPDATE user SET name =? , username = ? , password = ? ,isAdmin = ? WHERE id = ? ";
+		
 		Connection conn = null;
 
 		try {
 			conn = dataSource.getConnection();
 			PreparedStatement ps = conn.prepareStatement(sql);
 
-			ps.setString(1, permission.getName());
+			ps.setString(1, user.getName());
+			ps.setString(2, user.getUsername());
+			ps.setString(3, user.getPassword());
+			ps.setInt(4, user.getType());
+			ps.setInt(5, user.getId());
 			ps.executeUpdate();
 			ps.close();
 
@@ -91,12 +96,11 @@ public class PermissionDao {
 			}
 		}
 	}
-
 	
 	
-	public Permission getPermission(int id){
+	public User getUser(int id){
 
-		String sql = "SELECT * FROM permission WHERE id = ?";
+		String sql = "SELECT * FROM user WHERE id = ?";
 		
 		Connection conn = null;
 
@@ -107,14 +111,17 @@ public class PermissionDao {
 			
 			ResultSet rs = ps.executeQuery();
 			if (rs.next()) {
-				this.permission = new Permission(
+				this.user = new User(
 					rs.getInt("id"),
-					rs.getString("name")
+					rs.getString("name"),
+					rs.getString("username"),
+					rs.getString("password"),
+					rs.getInt("isAdmin")
 				);
 			}
 			rs.close();
 			ps.close();
-			return permission;
+			return user;
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		} finally {
@@ -125,26 +132,61 @@ public class PermissionDao {
 			}
 		}
 	}
+	public User getUser(String username){
 
+		String sql = "SELECT * FROM user WHERE username = ? ";
+		
+		Connection conn = null;
+
+		try {
+			conn = dataSource.getConnection();
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, username);
+			
+			ResultSet rs = ps.executeQuery();
+			if (rs.next()) {
+				this.user = new User(
+					rs.getInt("id"),
+					rs.getString("name"),
+					rs.getString("username"),
+					rs.getString("password"),
+					rs.getInt("isAdmin")
+				);
+			}
+			rs.close();
+			ps.close();
+			return user;
+		} catch (SQLException e) {
+			throw new RuntimeException(e);
+		} finally {
+			if (conn != null) {
+				try {
+				conn.close();
+				} catch (SQLException e) {}
+			}
+		}
+	}
 	
-
-	public ArrayList<Permission> getPermissions(){
-		permissions = new ArrayList<Permission>();
+	public ArrayList<User> getUser(){
+		userList = new ArrayList<User>();
 		Connection conn = null;
 		
 		try {
 			conn = dataSource.getConnection();
-			PreparedStatement ps = conn.prepareStatement("select * from permission");
+			PreparedStatement ps = conn.prepareStatement("select * from user");
 			ResultSet rs = ps.executeQuery();
 			while (rs.next()) 
-				this.permissions.add(new Permission(
+				this.userList.add(new User(
 						rs.getInt("id"),
-						rs.getString("name")
+						rs.getString("name"),
+						rs.getString("username"),
+						rs.getString("password"),
+						rs.getInt("isAdmin")
 				));
 			
 			rs.close();
 			ps.close();
-			return permissions;
+			return userList;
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		} finally {

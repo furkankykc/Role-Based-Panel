@@ -4,6 +4,8 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
+import Dao.GroupDao;
+import Utility.Security;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
@@ -13,27 +15,39 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
+import Dao.UserDao;
 import Entity.User;
+import Utility.Security;
+
+import javax.servlet.http.HttpServletRequest;
 
 @Controller
 public class LoginController {
 
 	
-	/*private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 
 	ApplicationContext context =new ClassPathXmlApplicationContext("Module.xml");
-	*//**
-	 * Simply selects the home view to render by returning its name.
-	 *//*
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String init(Model model) {
 	    model.addAttribute("msg", "HOŞGELDİNİZ");
 	    return "login";
 	}
-	
+	public String initHome(Model model,HttpServletRequest request){
+        String referer = request.getHeader("Referer");
+
+        if(Security.isUserLoggedin()){
+            if(Security.getLoggedUser().getType()==0){
+                return "redirect:/";
+            }else if(Security.getLoggedUser().getType()==1){
+                return "home";
+
+            }
+        }
+	    return "index";
+    }
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
-	public String Login(Model model, @ModelAttribute("loginBean") User loginBean){
+	public String Login(HttpServletRequest request,Model model, @ModelAttribute("loginBean") User loginBean){
 		
 	   	UserDao loginDao = (UserDao) context.getBean("userDao");
 	   	if(loginBean== null){
@@ -47,16 +61,13 @@ public class LoginController {
 	   			return "login";
 	   		}
 		    	if(userDao.getPassword().equals(loginBean.getPassword())){
-		    		model.addAttribute("loggedUser",loginBean);
-		    		loggedUser = userDao;
-		    		return initHome(model);
+		    		model.addAttribute("loggedUser",userDao);
+                    Security.setLoggedUser(userDao);
+		    		return initHome(model,request);
 		    	}else{
 		    		 model.addAttribute("error", "hatali kullanıcı adı yada sifre");
 		                return "login";
 		    	}
-		    	
-		    	
-	   	
 	       } else {
 	           model.addAttribute("error", "Lütfen alanları boş bırakmayınız");
 	           
@@ -65,6 +76,10 @@ public class LoginController {
 	   
 			
 		}
+        @RequestMapping(value = "/logout")
+		public String logout(){
+	        Security.logout();
+	        return "redirect:/login";
+        }
 
-	*/
 }

@@ -11,7 +11,11 @@ public class Permission {
 		this.id = id;
 		this.name = name;
 	}
-
+	public Permission() {
+		super();
+		this.id = 0;
+		this.name = "";
+	}
 
 	public int getId() {
 		return id;

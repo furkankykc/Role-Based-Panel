@@ -152,11 +152,12 @@ public class GroupDao {
 
 		try {
 			conn = dataSource.getConnection();
-			PreparedStatement ps = conn.prepareStatement("select permission_id from group_perms where group_id = ?");
+			PreparedStatement ps = conn.prepareStatement("select * from group_perms where group_id = ? and permission_id = ?");
 			ps.setInt(1, groupId);
-			ResultSet rs = ps.executeQuery();
-			while (rs.next())
-				if(rs.getInt("id")==permId) return true;
+            ps.setInt(2, permId);
+            ResultSet rs = ps.executeQuery();
+            if (rs.next())
+				return true;
 			rs.close();
 			ps.close();
 		} catch (SQLException e) {
@@ -178,7 +179,7 @@ public class GroupDao {
 		
 		try {
 			conn = dataSource.getConnection();
-			PreparedStatement ps = conn.prepareStatement("select permission_id from group_perms where group_id = ?");
+			PreparedStatement ps = conn.prepareStatement("select permission_id from group_perms where group_id = ? ");
 			ps.setInt(1, groupId);
 			ResultSet rs = ps.executeQuery();
 			while (rs.next()) 
@@ -197,6 +198,8 @@ public class GroupDao {
 		}
 		
 	}
+
+
 	public void setGroupPerms(int groupId,String []perms ){
 
 		deletePerms(groupId);
@@ -242,7 +245,7 @@ public class GroupDao {
 		
 		try {
 			conn = dataSource.getConnection();
-			PreparedStatement ps = conn.prepareStatement("select * from groups");
+			PreparedStatement ps = conn.prepareStatement("select * from groups ORDER BY id");
 			ResultSet rs = ps.executeQuery();
 			while (rs.next()) 
 				this.groups.add(new Group(

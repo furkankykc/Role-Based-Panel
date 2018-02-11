@@ -12,20 +12,19 @@
     <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
     <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-
+    <%--   <form:select path="permission_id">
+           <c:forEach items="${permissions}" var="permission">
+               <form:option name="permission_id" value="${permission.getId()}" label="${permission.getName() }" />
+           </c:forEach>
+       </form:select>--%>
 </head>
 <body>
 <form:form commandName="groupBean" method="post">
-    <label>Grup Adı : </label> <input type='text' name='groupname' />
-   <%--<form:select path="permission_id">--%>
-       <%--<c:forEach items="${permissions}" var="permission">--%>
-           <%--<form:option name="permission_id" value="${permission.getId()}" label="${permission.getName() }" />--%>
-       <%--</c:forEach>--%>
-   <%--</form:select>--%>
+    <label>Grup Adı : </label> <input type='text' name='name' />
+
     <input name="add" action="add"  type="submit" value="Insert" class="btn">
 
 </form:form>
-
 <%--
 <form:form commandName="group_perms" method="post">
     <form:select path="groupId">
@@ -59,7 +58,6 @@
 </form:form>
 --%>
 
-
 <table border="1">
 <tr>
     <td>tablo</td>
@@ -77,7 +75,12 @@
         <form:form method="post">
     <c:forEach items="${permissions}" var="permission">
         <td>
-            <input type="checkbox" name="chckVals" value="${permission.getId()}" />
+            <c:if test="${group_perms.getAcces(group.getId(),permission.getId())}">
+            <input type="checkbox" name="chckVals" checked="checked" value="${permission.getId()}"  />
+            </c:if>
+            <c:if test="${!group_perms.getAcces(group.getId(),permission.getId())}">
+                <input type="checkbox" name="chckVals" value="${permission.getId()}"  />
+            </c:if>
             <input type="hidden" name="permId" value="${permission.getId()}" />
             <input type="hidden" name="groupId" value="${group.getId()}" />
     </td>

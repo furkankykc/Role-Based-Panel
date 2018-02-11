@@ -1,5 +1,10 @@
 package Entity;
 
+import Dao.GroupDao;
+import Dao.PermissionDao;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 public class GroupPerms {
     int groupId;
     int permId;
@@ -36,4 +41,17 @@ public class GroupPerms {
                 ", permId=" + permId +
                 '}';
     }
+    public static boolean getAcces(int gid,int pid){
+
+        try {
+            ApplicationContext context =new ClassPathXmlApplicationContext("Module.xml");
+            GroupDao groupDao = (GroupDao) context.getBean("groupDao");
+            return groupDao.getAccess(gid,pid);
+        }catch (NullPointerException ex){
+            return false;
+        }
+
+
+        }
+
 }

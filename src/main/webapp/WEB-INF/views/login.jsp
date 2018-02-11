@@ -12,15 +12,17 @@
 </head>
 <body> 
 
-<form:form name="submitForm" action="login" method="POST">   
+<form:form name="submitForm" action="/login" method="POST">
+	<div class="contentContainer">
 	<div class="form-group">
-		<label for="User Name">User Name</label>
-		<input class="input-group-text" type="text" name="username" />
+		<label for="user-name-label">User Name</label><br>
+		<input id="user-name-label"class="input-group-text" type="text" name="username" />
 	</div>
 	<div class="form-group">
-		<label for="inputPassword">Password</label>
-		<input class="input-group-text" type="password" name="password" />
+		<label for="password-label">Password</label><br>
+		<input id="password-label" class="input-group-text" type="password" name="password" />
 	</div>
+
 	<input class="btn btn-primary" type="Submit" value="Login" />            
 <div style="color: red">${error}</div>
 </form:form>

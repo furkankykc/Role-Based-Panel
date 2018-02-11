@@ -9,7 +9,49 @@
     <bookmark url="file://$APPLICATION_CONFIG_DIR$/consoles/db/7e0050a0-1c03-4a83-bd41-347eda28567f/console.sql" line="1" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03a7b8cb-ab1a-4049-ac49-4b7a8b0efd97" name="Default" comment="" />
+    <list default="true" id="03a7b8cb-ab1a-4049-ac49-4b7a8b0efd97" name="Default" comment="added User">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Dao/UserDao.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7e0050a0-1c03-4a83-bd41-347eda28567f.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/7e0050a0-1c03-4a83-bd41-347eda28567f.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dao/GroupDao.java" afterPath="$PROJECT_DIR$/src/main/java/Dao/GroupDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dao/PermissionDao.java" afterPath="$PROJECT_DIR$/src/main/java/Dao/PermissionDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entity/GroupPerms.java" afterPath="$PROJECT_DIR$/src/main/java/Entity/GroupPerms.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entity/Permission.java" afterPath="$PROJECT_DIR$/src/main/java/Entity/Permission.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utility/Security.java" afterPath="$PROJECT_DIR$/src/main/java/Utility/Security.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/galileo/panel/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/galileo/panel/HomeController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/galileo/panel/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/galileo/panel/LoginController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/galileo/panel/PermissionsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/galileo/panel/PermissionsController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Module.xml" afterPath="$PROJECT_DIR$/src/main/resources/Module.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dao/GroupDao.class" afterPath="$PROJECT_DIR$/target/classes/Dao/GroupDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dao/PermissionDao.class" afterPath="$PROJECT_DIR$/target/classes/Dao/PermissionDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/Group.class" afterPath="$PROJECT_DIR$/target/classes/Entity/Group.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/GroupPerms.class" afterPath="$PROJECT_DIR$/target/classes/Entity/GroupPerms.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/Permission.class" afterPath="$PROJECT_DIR$/target/classes/Entity/Permission.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Entity/User.class" afterPath="$PROJECT_DIR$/target/classes/Entity/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Module.xml" afterPath="$PROJECT_DIR$/target/classes/Module.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utility/SqlRunner.class" afterPath="$PROJECT_DIR$/target/classes/Utility/SqlRunner.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/galileo/panel/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/com/galileo/panel/HomeController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/galileo/panel/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/galileo/panel/LoginController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/galileo/panel/PermissionsController.class" afterPath="$PROJECT_DIR$/target/classes/com/galileo/panel/PermissionsController.class" />
+      <change beforePath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/Dao/GroupDao.class" afterPath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/Dao/GroupDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/Dao/PermissionDao.class" afterPath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/Dao/PermissionDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/Entity/Group.class" afterPath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/Entity/Group.class" />
+      <change beforePath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/Entity/GroupPerms.class" afterPath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/Entity/GroupPerms.class" />
+      <change beforePath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/Entity/Permission.class" afterPath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/Entity/Permission.class" />
+      <change beforePath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/Entity/User.class" afterPath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/Entity/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/Module.xml" afterPath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/Module.xml" />
+      <change beforePath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/Utility/SqlRunner.class" afterPath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/Utility/SqlRunner.class" />
+      <change beforePath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/galileo/panel/HomeController.class" afterPath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/galileo/panel/HomeController.class" />
+      <change beforePath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/galileo/panel/LoginController.class" afterPath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/galileo/panel/LoginController.class" />
+      <change beforePath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/galileo/panel/PermissionsController.class" afterPath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/com/galileo/panel/PermissionsController.class" />
+      <change beforePath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/home.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/login.jsp" afterPath="$PROJECT_DIR$/target/panel-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/login.jsp" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,66 +73,27 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7608555">
+    <splitter split-orientation="horizontal" split-proportion="0.657047">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="PermissionsController.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/galileo/panel/PermissionsController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-75">
-                  <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+                <state relative-caret-position="100">
+                  <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="method#init#0;class#PermissionsController#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="GroupPerms.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Entity/GroupPerms.java">
+          <file leaf-file-name="Permission.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Permission.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="422">
-                  <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#306#307#0" expanded="true" />
-                    <element signature="e#336#337#0" expanded="true" />
-                    <element signature="e#379#380#0" expanded="true" />
-                    <element signature="e#417#418#0" expanded="true" />
-                    <element signature="e#447#448#0" expanded="true" />
-                    <element signature="e#476#477#0" expanded="true" />
-                    <element signature="e#517#518#0" expanded="true" />
-                    <element signature="e#553#554#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="GroupDao.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Dao/GroupDao.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-245">
-                  <caret line="175" column="66" lean-forward="true" selection-start-line="175" selection-start-column="66" selection-end-line="175" selection-end-column="66" />
-                  <folding>
-                    <element signature="method#setDataSource#0;class#GroupDao#0" expanded="false" />
-                    <element signature="method#delete#0;class#GroupDao#0" expanded="false" />
-                    <element signature="method#insert#0;class#GroupDao#0" expanded="false" />
-                    <element signature="method#update#0;class#GroupDao#0" expanded="false" />
-                    <element signature="method#getGroup#0;class#GroupDao#0" expanded="false" />
-                    <element signature="method#setGroupPerms#1;class#GroupDao#0" expanded="false" />
-                    <element signature="method#getGroups#0;class#GroupDao#0" expanded="false" />
-                    <marker date="1517698623149" expanded="true" signature="2597:2637" ph="DELETE FROM group_perms... " />
-                    <marker date="1517698623149" expanded="true" signature="3250:3306" ph="select permi... group_perms" />
-                    <marker date="1517698623149" expanded="true" signature="3897:3953" ph="select permi... group_perms" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Entity/User.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+                <state relative-caret-position="270">
+                  <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -99,58 +102,58 @@
           <file leaf-file-name="Group.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Group.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="324">
-                  <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+                <state relative-caret-position="72">
+                  <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+          <file leaf-file-name="GroupDao.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Dao/GroupDao.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="378">
-                  <caret line="78" column="69" lean-forward="false" selection-start-line="78" selection-start-column="69" selection-end-line="78" selection-end-column="69" />
-                  <folding />
+                <state relative-caret-position="284">
+                  <caret line="210" column="5" lean-forward="true" selection-start-line="210" selection-start-column="5" selection-end-line="210" selection-end-column="5" />
+                  <folding>
+                    <element signature="method#setDataSource#0;class#GroupDao#0" expanded="false" />
+                    <element signature="method#delete#0;class#GroupDao#0" expanded="false" />
+                    <element signature="method#insert#0;class#GroupDao#0" expanded="false" />
+                    <element signature="method#update#0;class#GroupDao#0" expanded="false" />
+                    <element signature="method#getGroup#0;class#GroupDao#0" expanded="false" />
+                    <element signature="e#3115#3124#0" expanded="true" />
+                    <element signature="method#setGroupPerms#1;class#GroupDao#0" expanded="false" />
+                    <marker date="1518386776457" expanded="true" signature="2597:2637" ph="DELETE FROM group_perms... " />
+                    <marker date="1518386776457" expanded="true" signature="3250:3294" ph="select permi... group_perms" />
+                    <marker date="1518386776457" expanded="true" signature="3250:3316" ph="select * fro... group_perms" />
+                    <marker date="1518386776457" expanded="true" signature="3928:3984" ph="select permi... group_perms" />
+                    <marker date="1518386776457" expanded="true" signature="5263:5295" ph="select * fro... groups" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/galileo/panel/LoginController.java">
+          <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Dao/UserDao.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="263">
-                  <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-                  <folding />
+                <state relative-caret-position="203">
+                  <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+                  <folding>
+                    <marker date="1517977801973" expanded="true" signature="456:483" ph="DELETE FROM user... " />
+                    <marker date="1517977801973" expanded="true" signature="926:1004" ph="INSERT INTO user... " />
+                    <marker date="1517977801973" expanded="true" signature="1559:1638" ph="UPDATE user... " />
+                    <marker date="1517977801973" expanded="true" signature="2217:2248" ph="SELECT * FRO... user" />
+                    <marker date="1517977801973" expanded="true" signature="2912:2949" ph="SELECT * FRO... user" />
+                    <marker date="1517977801973" expanded="true" signature="3764:3782" ph="select * fro... user" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Module.xml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/Module.xml">
+          <file leaf-file-name="GroupPerms.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Entity/GroupPerms.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
-                  <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Security.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Utility/Security.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <state relative-caret-position="316">
+                  <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -158,15 +161,35 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
             <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7e0050a0-1c03-4a83-bd41-347eda28567f/console.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+                <state relative-caret-position="126">
+                  <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -195,6 +218,9 @@
       <replace>groups</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -203,19 +229,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/galileo/panel/HomeController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/Module.xml" />
         <option value="$PROJECT_DIR$/galiPanel.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/Entity/GroupPerms.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7e0050a0-1c03-4a83-bd41-347eda28567f/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/Utility/Security.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Dao/GroupDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/galileo/panel/PermissionsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entity/Group.java" />
         <option value="$PROJECT_DIR$/src/main/java/Entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Module.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Utility/Security.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/galileo/panel/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/galileo/panel/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/Dao/PermissionDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Entity/GroupPerms.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7e0050a0-1c03-4a83-bd41-347eda28567f/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/Dao/GroupDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Entity/Permission.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/galileo/panel/PermissionsController.java" />
       </list>
     </option>
   </component>
@@ -231,6 +262,13 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
@@ -263,6 +301,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -278,8 +317,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -393,16 +430,23 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/Dao" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -613,14 +657,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517687726611</updated>
-      <workItem from="1517687732268" duration="11228000" />
+      <workItem from="1517687732268" duration="11854000" />
+      <workItem from="1517760725220" duration="359000" />
+      <workItem from="1517976794512" duration="6178000" />
+      <workItem from="1518379756465" duration="9864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11228000" />
+    <option name="totallyTimeSpent" value="28255000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -630,40 +677,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="-4" width="1857" height="1092" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291536" sideWeight="0.38916528" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30816326" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32879582" sideWeight="0.5063571" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30816326" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.49585405" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.49143174" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291536" sideWeight="0.6108347" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.49806523" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.49806523" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33751306" sideWeight="0.48258707" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17247097" sideWeight="0.49369085" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17247097" sideWeight="0.50630915" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.4803759" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32879582" sideWeight="0.4936429" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.41238254" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.51188505" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.49806523" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.49806523" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35287958" sideWeight="0.45163074" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16583748" sideWeight="0.49369085" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17247097" sideWeight="0.50630915" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -673,13 +719,221 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added User" />
+    <option name="LAST_COMMIT_MESSAGE" value="added User" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utility/Security.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#582#583#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding>
+            <marker date="1517977801973" expanded="true" signature="456:483" ph="DELETE FROM user... " />
+            <marker date="1517977801973" expanded="true" signature="926:1004" ph="INSERT INTO user... " />
+            <marker date="1517977801973" expanded="true" signature="1559:1638" ph="UPDATE user... " />
+            <marker date="1517977801973" expanded="true" signature="2217:2248" ph="SELECT * FRO... user" />
+            <marker date="1517977801973" expanded="true" signature="2912:2949" ph="SELECT * FRO... user" />
+            <marker date="1517977801973" expanded="true" signature="3764:3782" ph="select * fro... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/galileo/panel/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="41" column="69" lean-forward="false" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utility/SqlRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Module.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/galileo/panel/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7e0050a0-1c03-4a83-bd41-347eda28567f/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/galileo/panel/PermissionsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#init#0;class#PermissionsController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/GroupPerms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#484#485#0" expanded="false" />
+            <element signature="e#514#515#0" expanded="false" />
+            <element signature="e#557#558#0" expanded="false" />
+            <element signature="e#595#596#0" expanded="false" />
+            <element signature="e#625#626#0" expanded="false" />
+            <element signature="e#654#655#0" expanded="false" />
+            <element signature="e#695#696#0" expanded="false" />
+            <element signature="e#731#732#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dao/GroupDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="175" column="66" lean-forward="false" selection-start-line="175" selection-start-column="66" selection-end-line="175" selection-end-column="66" />
+          <folding>
+            <element signature="method#setDataSource#0;class#GroupDao#0" expanded="false" />
+            <element signature="method#delete#0;class#GroupDao#0" expanded="false" />
+            <element signature="method#insert#0;class#GroupDao#0" expanded="false" />
+            <element signature="method#update#0;class#GroupDao#0" expanded="false" />
+            <element signature="method#getGroup#0;class#GroupDao#0" expanded="false" />
+            <element signature="e#3115#3124#0" expanded="true" />
+            <element signature="method#setGroupPerms#1;class#GroupDao#0" expanded="false" />
+            <marker date="1518386776457" expanded="true" signature="2597:2637" ph="DELETE FROM group_perms... " />
+            <marker date="1518386776457" expanded="true" signature="3250:3294" ph="select permi... group_perms" />
+            <marker date="1518386776457" expanded="true" signature="3250:3316" ph="select * fro... group_perms" />
+            <marker date="1518386776457" expanded="true" signature="3928:3984" ph="select permi... group_perms" />
+            <marker date="1518386776457" expanded="true" signature="5263:5295" ph="select * fro... groups" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="78" column="69" lean-forward="false" selection-start-line="78" selection-start-column="69" selection-end-line="78" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/galileo/panel/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utility/Security.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#582#583#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Module.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7e0050a0-1c03-4a83-bd41-347eda28567f/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://SpringLocalModels/module=panel">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -701,14 +955,7 @@
           <Categories>
             <Category>Show filesets as groups</Category>
           </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/galileo/panel/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="43" column="5" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
-          <folding />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -736,64 +983,323 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dao/PermissionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="45" column="36" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="45" selection-end-column="36" />
-          <folding>
-            <marker date="1517678197738" expanded="true" signature="490:523" ph="DELETE FROM permission... " />
-            <marker date="1517678197738" expanded="true" signature="978:1027" ph="INSERT INTO permission... " />
-            <marker date="1517678197738" expanded="true" signature="1487:1531" ph="UPDATE permission... " />
-            <marker date="1517678197738" expanded="true" signature="2033:2070" ph="SELECT * FRO... permission" />
-            <marker date="1517678197738" expanded="true" signature="2830:2854" ph="select * fro... permission" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/galiPanel.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utility/Utils.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7e0050a0-1c03-4a83-bd41-347eda28567f/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utility/SqlRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="72">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utility/Utils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/galileo/panel/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="284">
+          <caret line="48" column="4" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Module.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utility/Security.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#549#550#0" expanded="false" />
+            <element signature="e#582#583#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Java/jdk-9.0.1/lib/src.zip!/java.base/java/util/IdentityHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="209" column="11" lean-forward="false" selection-start-line="209" selection-start-column="11" selection-end-line="209" selection-end-column="11" />
+          <folding>
+            <element signature="docComment;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;field#DEFAULT_CAPACITY#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;field#MINIMUM_CAPACITY#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;field#MAXIMUM_CAPACITY#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;field#table#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;field#size#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;field#modCount#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;field#NULL_KEY#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#maskNull#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#unmaskNull#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#IdentityHashMap#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#IdentityHashMap#1;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#IdentityHashMap#1;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#capacity#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#capacity#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#init#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#init#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="e#10104#10175#0" expanded="false" />
+            <element signature="docComment;method#IdentityHashMap#2;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#IdentityHashMap#2;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#size#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#isEmpty#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#hash#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#hash#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#nextKeyIndex#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#get#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#get#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#containsKey#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#containsKey#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#containsValue#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#containsValue#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#containsMapping#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#containsMapping#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#put#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#put#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="e#16230#16261#0" expanded="false" />
+            <element signature="docComment;method#resize#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#resize#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#putAll#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#putAll#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#remove#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#remove#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#removeMapping#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#removeMapping#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#closeDeletion#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#closeDeletion#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="e#20967#21016#0" expanded="false" />
+            <element signature="e#21341#21400#0" expanded="false" />
+            <element signature="docComment;method#clear#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#clear#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#equals#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#hashCode#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#hashCode#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#clone#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#clone#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="class#IdentityHashMapIterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#hasNext#0;class#IdentityHashMapIterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#nextIndex#0;class#IdentityHashMapIterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#remove#0;class#IdentityHashMapIterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="e#27580#27636#0" expanded="false" />
+            <element signature="e#28535#28581#0" expanded="false" />
+            <element signature="e#29210#29260#0" expanded="false" />
+            <element signature="class#KeyIterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="class#ValueIterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="class#EntryIterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#next#0;class#EntryIterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#remove#0;class#EntryIterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="class#Entry#0;class#EntryIterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#getKey#0;class#Entry#0;class#EntryIterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#getValue#0;class#Entry#0;class#EntryIterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#setValue#0;class#Entry#0;class#EntryIterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#equals#0;class#Entry#0;class#EntryIterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#hashCode#0;class#Entry#0;class#EntryIterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#toString#0;class#Entry#0;class#EntryIterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#checkIndexForEntryUse#0;class#Entry#0;class#EntryIterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;field#entrySet#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#keySet#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#keySet#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="class#KeySet#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#remove#0;class#KeySet#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#removeAll#0;class#KeySet#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#hashCode#0;class#KeySet#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#toArray#1;class#KeySet#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="e#37983#37999#0" expanded="false" />
+            <element signature="docComment;method#values#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#values#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="class#Values#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#remove#0;class#Values#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#toArray#1;class#Values#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="e#41336#41352#0" expanded="false" />
+            <element signature="docComment;method#entrySet#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#entrySet#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="class#EntrySet#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#contains#0;class#EntrySet#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#remove#0;class#EntrySet#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#removeAll#0;class#EntrySet#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#toArray#1;class#EntrySet#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="e#46607#46623#0" expanded="false" />
+            <element signature="method#spliterator#0;class#EntrySet#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#writeObject#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#writeObject#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#readObject#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#readObject#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;method#putForCreate#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#putForCreate#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="e#50215#50245#0" expanded="false" />
+            <element signature="e#50215#50245#0" expanded="false" />
+            <element signature="method#forEach#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="e#50786#50816#0" expanded="false" />
+            <element signature="e#50786#50816#0" expanded="false" />
+            <element signature="method#replaceAll#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="docComment;class#IdentityHashMapSpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="class#IdentityHashMapSpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#IdentityHashMapSpliterator#0;class#IdentityHashMapSpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#getFence#0;class#IdentityHashMapSpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#estimateSize#0;class#IdentityHashMapSpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="class#KeySpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#KeySpliterator#0;class#KeySpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#trySplit#0;class#KeySpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#forEachRemaining#0;class#KeySpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#tryAdvance#0;class#KeySpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="class#ValueSpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#ValueSpliterator#0;class#ValueSpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#trySplit#0;class#ValueSpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#forEachRemaining#0;class#ValueSpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#tryAdvance#0;class#ValueSpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="class#EntrySpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#EntrySpliterator#0;class#EntrySpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#trySplit#0;class#EntrySpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#forEachRemaining#0;class#EntrySpliterator#0;class#IdentityHashMap#0" expanded="false" />
+            <element signature="method#tryAdvance#0;class#EntrySpliterator#0;class#IdentityHashMap#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/galileo/panel/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="37" column="54" lean-forward="false" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dao/PermissionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="128" column="4" lean-forward="false" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
+          <folding>
+            <marker date="1518382742888" expanded="true" signature="490:523" ph="DELETE FROM permission... " />
+            <marker date="1518382742888" expanded="true" signature="978:1027" ph="INSERT INTO permission... " />
+            <marker date="1518382742888" expanded="true" signature="1487:1531" ph="UPDATE permission... " />
+            <marker date="1518382742888" expanded="true" signature="2033:2070" ph="SELECT * FRO... permission" />
+            <marker date="1518382742888" expanded="true" signature="2828:2852" ph="select * fro... permission" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/javax/servlet/http/HttpServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="741" column="0" lean-forward="false" selection-start-line="741" selection-start-column="0" selection-end-line="741" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Java/jdk-9.0.1/lib/src.zip!/java.base/java/io/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.1.1.RELEASE/spring-webmvc-3.1.1.RELEASE-sources.jar!/org/springframework/web/servlet/view/AbstractView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="262" column="0" lean-forward="false" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.1.1.RELEASE/spring-webmvc-3.1.1.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="851" column="0" lean-forward="false" selection-start-line="851" selection-start-column="0" selection-end-line="851" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.1.1.RELEASE/spring-webmvc-3.1.1.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="778" column="0" lean-forward="false" selection-start-line="778" selection-start-column="0" selection-end-line="778" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.1.1.RELEASE/spring-webmvc-3.1.1.RELEASE-sources.jar!/org/springframework/web/servlet/view/InternalResourceView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7e0050a0-1c03-4a83-bd41-347eda28567f/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/GroupPerms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -802,95 +1308,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Dao/GroupDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-245">
-          <caret line="175" column="66" lean-forward="true" selection-start-line="175" selection-start-column="66" selection-end-line="175" selection-end-column="66" />
+        <state relative-caret-position="284">
+          <caret line="210" column="5" lean-forward="true" selection-start-line="210" selection-start-column="5" selection-end-line="210" selection-end-column="5" />
           <folding>
             <element signature="method#setDataSource#0;class#GroupDao#0" expanded="false" />
             <element signature="method#delete#0;class#GroupDao#0" expanded="false" />
             <element signature="method#insert#0;class#GroupDao#0" expanded="false" />
             <element signature="method#update#0;class#GroupDao#0" expanded="false" />
             <element signature="method#getGroup#0;class#GroupDao#0" expanded="false" />
+            <element signature="e#3115#3124#0" expanded="true" />
             <element signature="method#setGroupPerms#1;class#GroupDao#0" expanded="false" />
-            <element signature="method#getGroups#0;class#GroupDao#0" expanded="false" />
-            <marker date="1517698623149" expanded="true" signature="2597:2637" ph="DELETE FROM group_perms... " />
-            <marker date="1517698623149" expanded="true" signature="3250:3306" ph="select permi... group_perms" />
-            <marker date="1517698623149" expanded="true" signature="3897:3953" ph="select permi... group_perms" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/GroupPerms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/galileo/panel/PermissionsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1518386776457" expanded="true" signature="2597:2637" ph="DELETE FROM group_perms... " />
+            <marker date="1518386776457" expanded="true" signature="3250:3294" ph="select permi... group_perms" />
+            <marker date="1518386776457" expanded="true" signature="3250:3316" ph="select * fro... group_perms" />
+            <marker date="1518386776457" expanded="true" signature="3928:3984" ph="select permi... group_perms" />
+            <marker date="1518386776457" expanded="true" signature="5263:5295" ph="select * fro... groups" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="78" column="69" lean-forward="false" selection-start-line="78" selection-start-column="69" selection-end-line="78" selection-end-column="69" />
+        <state relative-caret-position="144">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/galileo/panel/PermissionsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="100">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#init#0;class#PermissionsController#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Module.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/galileo/panel/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="203">
+          <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <marker date="1517977801973" expanded="true" signature="456:483" ph="DELETE FROM user... " />
+            <marker date="1517977801973" expanded="true" signature="926:1004" ph="INSERT INTO user... " />
+            <marker date="1517977801973" expanded="true" signature="1559:1638" ph="UPDATE user... " />
+            <marker date="1517977801973" expanded="true" signature="2217:2248" ph="SELECT * FRO... user" />
+            <marker date="1517977801973" expanded="true" signature="2912:2949" ph="SELECT * FRO... user" />
+            <marker date="1517977801973" expanded="true" signature="3764:3782" ph="select * fro... user" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -948,11 +1415,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|panel</last-edited>
+          <last-edited>panel</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
