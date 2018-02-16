@@ -1,10 +1,5 @@
-package com.galileo.panel;
+package com.denemefk.panel;
 
-import java.text.DateFormat;
-import java.util.Date;
-import java.util.Locale;
-
-import Dao.GroupDao;
 import Utility.Security;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import Dao.UserDao;
 import Entity.User;
-import Utility.Security;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -28,6 +22,8 @@ public class LoginController {
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 
 	ApplicationContext context =new ClassPathXmlApplicationContext("Module.xml");
+	//Security Security =(Security) context.getBean("Security");
+
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String init(Model model) {
 	    model.addAttribute("msg", "HOŞGELDİNİZ");
@@ -37,10 +33,10 @@ public class LoginController {
         String referer = request.getHeader("Referer");
 
         if(Security.isUserLoggedin()){
-            if(Security.getLoggedUser().getType()==0){
+            if(Security.getLoggedUser().hasAccess(1)){
                 return "redirect:/";
-            }else if(Security.getLoggedUser().getType()==1){
-                return "home";
+            }else {
+                return "redirect:/admin/groups";
 
             }
         }
@@ -62,7 +58,7 @@ public class LoginController {
 	   		}
 		    	if(userDao.getPassword().equals(loginBean.getPassword())){
 		    		model.addAttribute("loggedUser",userDao);
-                    Security.setLoggedUser(userDao);
+					Security.setLoggedUser(userDao);
 		    		return initHome(model,request);
 		    	}else{
 		    		 model.addAttribute("error", "hatali kullanıcı adı yada sifre");
@@ -78,7 +74,7 @@ public class LoginController {
 		}
         @RequestMapping(value = "/logout")
 		public String logout(){
-	        Security.logout();
+			Security.logout();
 	        return "redirect:/login";
         }
 

@@ -1,11 +1,11 @@
-package com.galileo.panel;
+package com.denemefk.panel;
 
 
 import Dao.GroupDao;
 import Dao.PermissionDao;
 import Entity.Group;
 import Entity.GroupPerms;
-import Entity.Permission;
+import Utility.Security;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
@@ -16,26 +16,22 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
-import java.text.DateFormat;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Locale;
-import java.util.Map;
 
-import Utility.Security;
 @Controller
 public class PermissionsController {
 
     ApplicationContext context =new ClassPathXmlApplicationContext("Module.xml");
     GroupDao groupDao = (GroupDao) context.getBean("groupDao");
     PermissionDao permissionDao = (PermissionDao) context.getBean("permissionDao");
+   // Security Security =(Security) context.getBean("Security");
+
 //// TODO: 04.02.2018 aynı jsp de 2 form çalışmıyor
 
 
     @RequestMapping(value = "/admin/groups", method = RequestMethod.GET)
     public String init(Model model) {
         if(Security.isUserLoggedin()) {
-            if (Security.getLoggedUser().getType() == 1) {
+            if (Security.getLoggedUser().hasAccess(1)) {
 
                 model.addAttribute("groups", groupDao.getGroups());
 
@@ -56,15 +52,6 @@ public class PermissionsController {
         init(model);
         return "index";
     }
- /*   @RequestMapping(params = "permissionAdd",method = RequestMethod.POST)
-    public String add(Model model, @ModelAttribute("permissionBean") Permission permission, @RequestParam String add) {
-        if(permission!=null){
-            permissionDao.insert(permission);
-        }
-
-        init(model);
-        return "index";
-    }*/
 
     @RequestMapping(params = "update",method = RequestMethod.POST)
     public String update(HttpServletRequest request,Model model, @ModelAttribute("group_perms") GroupPerms group_perms, @RequestParam String update) {

@@ -8,7 +8,7 @@ create table user(
     	username varchar(30) unique,
 	name varchar(30),
     	password varchar(30),
-    	isAdmin boolean
+    	type INT
 );
 create table groups (
 	id int primary key auto_increment,

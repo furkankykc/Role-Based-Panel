@@ -1,10 +1,9 @@
-package com.galileo.panel;
+package com.denemefk.panel;
 
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import Entity.User;
 import Utility.Security;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,20 +27,25 @@ public class HomeController {
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
  	GroupDao groupDao = (GroupDao) context.getBean("groupDao");
  	PermissionDao permissionDao = (PermissionDao) context.getBean("permissionDao");
- 	
+ 	//Security Security =(Security) context.getBean("Security");
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) {
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		
-		String formattedDate = dateFormat.format(date);
-		if(Security.isUserLoggedin())
-			model.addAttribute("serverTime", Security.getLoggedUser().getUsername() );
-		
+
+	public String init(Locale locale, Model model) {
+		if(Security.isUserLoggedin()) {
+			model.addAttribute("username", Security.getLoggedUser().getUsername());
+			if(Security.getLoggedUser().hasAccess(1)){
+				model.addAttribute("isAdmin", Boolean.TRUE);
+			}else{
+                model.addAttribute("isAdmin", Boolean.FALSE);
+            }
+
+		}
 		return "home";
+	}	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String home(Locale locale, Model model) {
+		return init(locale,model);
 	}
 	
 }
